@@ -29,3 +29,15 @@ FROM behavioral_health_logs
 WHERE status = 'Pending'
 GROUP BY clinic_location, specialty
 HAVING avg_wait > 14;
+---
+
+## 🚀 Future Enhancements (Roadmap to 2027)
+
+As I continue my transition into advanced Data Analytics and prepare for my **DHSc**, I plan to evolve this project with the following technical milestones:
+
+* **Database Integration (SQL):** Transition from simulated CSV data to a relational database model. I plan to write complex queries to join patient demographic tables with regional provider availability schemas to identify real-time gaps.
+* **Cloud Architecture (AWS):** Explore hosting the analysis pipeline on **AWS HealthLake** to practice secure, HIPAA-compliant data storage and large-scale clinical data migration.
+* **Predictive Modeling:** Implement Machine Learning algorithms to predict which regions are at the highest risk of becoming "service deserts" based on population growth and provider retirement trends.
+* **Advanced Visualization:** Expand the current static analysis into an interactive **Tableau Public** dashboard with real-time filters for insurance type and facility distance.
+
+---
